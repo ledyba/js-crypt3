@@ -25,6 +25,7 @@ function toUTF8Array(str) {
 	return arr;
 }
 // Crypt accepts only Array object.
+// Crypt(password, salt)
 var hash = Crypt(toUTF8Array("password"), toUTF8Array("sa"));
 ```
 
