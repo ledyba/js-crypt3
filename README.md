@@ -3,7 +3,7 @@ JavaScript crypt(3) Implementation
 
 JavaScript port of [crypt(3)](http://linux.die.net/man/3/crypt) function.
 
-~~~
+~~~c
 char *crypt(const char *key, const char *salt);
 ~~~
 
