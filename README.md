@@ -9,8 +9,8 @@ char *crypt(const char *key, const char *salt);
 
 A original C version is written by Michael Dipperstein.
 
-How to
-========
+How to use
+===========
 
 Include crypt.js:
 ```html
