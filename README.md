@@ -32,7 +32,3 @@ function toUTF8Array(str) {
 // Crypt(password, salt)
 var hash = Crypt(toUTF8Array("password"), toUTF8Array("sa"));
 ```
-
-License
-========
-Licensed under 2-claused BSD License.
