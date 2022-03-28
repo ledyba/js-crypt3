@@ -1,9 +1,9 @@
 var Crypt = (function(pw, salt){
 /**************************************************************************
 *   Unix-like crypt(3) Algorithm for Password Encryption in JavaScript
-*   Author  : PSI(ledyba.org)
+*   Author  : Kaede Fujisaki
 *   Date    : 2014/09/29
-*   License : 2-claused BSD License
+*   License : AGPLv3 or later
 **************************************************************************/
 
 /* Original Copyright:
