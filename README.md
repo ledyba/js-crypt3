@@ -21,7 +21,7 @@ Then, call a "Crypt" function
 ```js
 // Helper function that convert string to utf8 byte array.
 function toUTF8Array(str) {
-	var utf8 = unescape( encodeURIComponent(utf8) );
+	var utf8 = unescape( encodeURIComponent(str) );
 	var arr = [];
 	for (var i = 0; i < utf8.length; i++) {
 		arr.push(utf8.charCodeAt(i));
